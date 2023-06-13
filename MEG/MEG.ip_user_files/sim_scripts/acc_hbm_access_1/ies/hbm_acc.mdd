@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER hbm_acc
+	OPTION supported_peripherals = (hbm_acc);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = hbm_acc;
+END DRIVER

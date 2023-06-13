@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../BOOM_on_HTG937.srcs/sources_1/ip/axi_quad_spi_0/sim/axi_quad_spi_0.vhd" \
+"../../../../BOOM_on_HTG937.srcs/sources_1/ip/axi_bram_ctrl_0/sim/axi_bram_ctrl_0.vhd" \
+"../../../../BOOM_on_HTG937.srcs/sources_1/ip/axi_uart16550_0/sim/axi_uart16550_0.vhd" \
+
+# Do not sort compile order
+nosort

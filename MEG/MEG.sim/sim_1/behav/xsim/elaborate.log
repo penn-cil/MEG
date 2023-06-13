@@ -1,0 +1,464 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: /opt/Xilinx/Vivado/2019.1/bin/unwrapped/lnx64.o/xelab -wto 48316a155085402484c297c26ddea500 --incr --debug typical --relax --mt 8 -L dist_mem_gen_v8_0_13 -L lib_pkg_v1_0_2 -L lib_cdc_v1_0_2 -L lib_srl_fifo_v1_0_2 -L fifo_generator_v13_2_4 -L lib_fifo_v1_0_13 -L axi_lite_ipif_v3_0_4 -L interrupt_control_v3_1_4 -L axi_quad_spi_v3_2_18 -L xil_defaultlib -L axi_bram_ctrl_v4_1_1 -L axi_uart16550_v2_0_21 -L generic_baseblocks_v2_1_0 -L axi_infrastructure_v1_1_0 -L axi_register_slice_v2_1_19 -L axi_data_fifo_v2_1_18 -L axi_crossbar_v2_1_20 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot dut_top_tb_behav xil_defaultlib.dut_top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/bangya/src-BOOM-HTG937/utils/nasti_lite_bridge/nasti_lite_bridge.sv" Line 5. Module nasti_lite_bridge doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/bangya/src-BOOM-HTG937/utils/nasti_lite_bridge/nasti_lite_writer.sv" Line 4. Module nasti_lite_writer_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/bangya/src-BOOM-HTG937/utils/nasti_lite_bridge/nasti_lite_reader.sv" Line 4. Module nasti_lite_reader_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/bangya/src-BOOM-HTG937/utils/nasti_lite_bridge/nasti_lite_bridge.sv" Line 5. Module nasti_lite_bridge(ADDR_WIDTH=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/bangya/src-BOOM-HTG937/utils/nasti_lite_bridge/nasti_lite_writer.sv" Line 4. Module nasti_lite_writer(ADDR_WIDTH=7) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/bangya/src-BOOM-HTG937/utils/nasti_lite_bridge/nasti_lite_reader.sv" Line 4. Module nasti_lite_reader(ADDR_WIDTH=7) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package axi_lite_ipif_v3_0_4.ipif_pkg
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package lib_pkg_v1_0_2.lib_pkg
+Compiling package xpm.vcomponents
+Compiling package axi_bram_ctrl_v4_1_1.axi_bram_ctrl_funcs
+Compiling package ieee.std_logic_signed
+Compiling module unisims_ver.IBUFDS
+Compiling module unisims_ver.IBUFGDS
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.MMCME4_ADV(CLKFBOUT_MULT_F=6.0,C...
+Compiling module xil_defaultlib.clk_wiz_0_clk_wiz
+Compiling module xil_defaultlib.clk_wiz_0
+Compiling module xil_defaultlib.IntXbar
+Compiling module xil_defaultlib.plusarg_reader(FORMAT="tilelink_...
+Compiling module xil_defaultlib.TLMonitor
+Compiling module xil_defaultlib.TLMonitor_1
+Compiling module xil_defaultlib.TLMonitor_2
+Compiling module xil_defaultlib.TLXbar
+Compiling module xil_defaultlib.TLMonitor_3
+Compiling module xil_defaultlib.TLBuffer
+Compiling module xil_defaultlib.TLMonitor_4
+Compiling module xil_defaultlib.TLFIFOFixer
+Compiling module xil_defaultlib.SimpleLazyModule
+Compiling module xil_defaultlib.Queue
+Compiling module xil_defaultlib.Queue_1
+Compiling module xil_defaultlib.Queue_2
+Compiling module xil_defaultlib.Queue_4
+Compiling module xil_defaultlib.AXI4Buffer
+Compiling module xil_defaultlib.Queue_5
+Compiling module xil_defaultlib.Queue_8
+Compiling module xil_defaultlib.AXI4UserYanker
+Compiling module xil_defaultlib.Queue_17
+Compiling module xil_defaultlib.AXI4Deinterleaver
+Compiling module xil_defaultlib.AXI4IdIndexer
+Compiling module xil_defaultlib.TLMonitor_5
+Compiling module xil_defaultlib.Queue_23
+Compiling module xil_defaultlib.Queue_24
+Compiling module xil_defaultlib.TLToAXI4
+Compiling module xil_defaultlib.TLMonitor_6
+Compiling module xil_defaultlib.TLWidthWidget
+Compiling module xil_defaultlib.TLMonitor_7
+Compiling module xil_defaultlib.TLBuffer_1
+Compiling module xil_defaultlib.SimpleLazyModule_1
+Compiling module xil_defaultlib.TLMonitor_8
+Compiling module xil_defaultlib.TLWidthWidget_1
+Compiling module xil_defaultlib.SimpleLazyModule_2
+Compiling module xil_defaultlib.TLMonitor_9
+Compiling module xil_defaultlib.TLWidthWidget_2
+Compiling module xil_defaultlib.SimpleLazyModule_3
+Compiling module xil_defaultlib.TLMonitor_10
+Compiling module xil_defaultlib.TLBuffer_2
+Compiling module xil_defaultlib.TLMonitor_11
+Compiling module xil_defaultlib.TLFIFOFixer_1
+Compiling module xil_defaultlib.SimpleLazyModule_5
+Compiling module xil_defaultlib.SystemBus
+Compiling module xil_defaultlib.TLMonitor_12
+Compiling module xil_defaultlib.TLXbar_3
+Compiling module xil_defaultlib.TLMonitor_13
+Compiling module xil_defaultlib.Queue_25
+Compiling module xil_defaultlib.Queue_26
+Compiling module xil_defaultlib.TLBuffer_5
+Compiling module xil_defaultlib.TLMonitor_14
+Compiling module xil_defaultlib.TLFIFOFixer_3
+Compiling module xil_defaultlib.TLMonitor_15
+Compiling module xil_defaultlib.TLWidthWidget_3
+Compiling module xil_defaultlib.Queue_27
+Compiling module xil_defaultlib.Queue_28
+Compiling module xil_defaultlib.AXI4ToTL
+Compiling module xil_defaultlib.Queue_29
+Compiling module xil_defaultlib.AXI4UserYanker_1
+Compiling module xil_defaultlib.Queue_33
+Compiling module xil_defaultlib.AXI4Fragmenter
+Compiling module xil_defaultlib.AXI4IdIndexer_1
+Compiling module xil_defaultlib.SimpleLazyModule_6
+Compiling module xil_defaultlib.TLMonitor_16
+Compiling module xil_defaultlib.TLBuffer_6
+Compiling module xil_defaultlib.FrontBus
+Compiling module xil_defaultlib.TLMonitor_17
+Compiling module xil_defaultlib.TLXbar_4
+Compiling module xil_defaultlib.Queue_38
+Compiling module xil_defaultlib.AXI4UserYanker_2
+Compiling module xil_defaultlib.AXI4IdIndexer_2
+Compiling module xil_defaultlib.TLMonitor_18
+Compiling module xil_defaultlib.Queue_47
+Compiling module xil_defaultlib.TLToAXI4_1
+Compiling module xil_defaultlib.TLMonitor_19
+Compiling module xil_defaultlib.TLWidthWidget_4
+Compiling module xil_defaultlib.TLMonitor_20
+Compiling module xil_defaultlib.TLBuffer_7
+Compiling module xil_defaultlib.TLMonitor_21
+Compiling module xil_defaultlib.ProbePicker
+Compiling module xil_defaultlib.SimpleLazyModule_7
+Compiling module xil_defaultlib.TLMonitor_22
+Compiling module xil_defaultlib.BankBinder
+Compiling module xil_defaultlib.SimpleLazyModule_8
+Compiling module xil_defaultlib.MemoryBus
+Compiling module xil_defaultlib.TLMonitor_23
+Compiling module xil_defaultlib.TLFIFOFixer_4
+Compiling module xil_defaultlib.TLMonitor_24
+Compiling module xil_defaultlib.TLXbar_5
+Compiling module xil_defaultlib.TLMonitor_25
+Compiling module xil_defaultlib.TLXbar_6
+Compiling module xil_defaultlib.TLMonitor_26
+Compiling module xil_defaultlib.Queue_48
+Compiling module xil_defaultlib.Queue_49
+Compiling module xil_defaultlib.TLBuffer_8
+Compiling module xil_defaultlib.TLMonitor_27
+Compiling module xil_defaultlib.TLAtomicAutomata_1
+Compiling module xil_defaultlib.TLMonitor_28
+Compiling module xil_defaultlib.Queue_50
+Compiling module xil_defaultlib.TLError
+Compiling module xil_defaultlib.TLMonitor_29
+Compiling module xil_defaultlib.Queue_51
+Compiling module xil_defaultlib.TLBuffer_9
+Compiling module xil_defaultlib.SimpleLazyModule_9
+Compiling module xil_defaultlib.TLMonitor_30
+Compiling module xil_defaultlib.Repeater
+Compiling module xil_defaultlib.TLFragmenter
+Compiling module xil_defaultlib.SimpleLazyModule_10
+Compiling module xil_defaultlib.TLMonitor_31
+Compiling module xil_defaultlib.Repeater_1
+Compiling module xil_defaultlib.TLFragmenter_1
+Compiling module xil_defaultlib.SimpleLazyModule_11
+Compiling module xil_defaultlib.TLMonitor_32
+Compiling module xil_defaultlib.Repeater_2
+Compiling module xil_defaultlib.TLFragmenter_2
+Compiling module xil_defaultlib.SimpleLazyModule_12
+Compiling module xil_defaultlib.TLMonitor_33
+Compiling module xil_defaultlib.Repeater_3
+Compiling module xil_defaultlib.TLFragmenter_3
+Compiling module xil_defaultlib.SimpleLazyModule_14
+Compiling module xil_defaultlib.TLMonitor_34
+Compiling module xil_defaultlib.TLBuffer_11
+Compiling module xil_defaultlib.PeripheryBus_1
+Compiling module xil_defaultlib.TLMonitor_35
+Compiling module xil_defaultlib.LevelGateway
+Compiling module xil_defaultlib.PLICFanIn
+Compiling module xil_defaultlib.Queue_53
+Compiling module xil_defaultlib.TLPLIC
+Compiling module xil_defaultlib.TLMonitor_36
+Compiling module xil_defaultlib.CLINT
+Compiling module xil_defaultlib.TLMonitor_37
+Compiling module xil_defaultlib.TLXbar_7
+Compiling module xil_defaultlib.DMIToTL
+Compiling module xil_defaultlib.TLMonitor_38
+Compiling module xil_defaultlib.AsyncResetReg
+Compiling module xil_defaultlib.AsyncResetRegVec_w32_i0
+Compiling module xil_defaultlib.AsyncResetRegVec_w1_i0
+Compiling module xil_defaultlib.TLDebugModuleOuter
+Compiling module xil_defaultlib.IntSyncCrossingSource
+Compiling module xil_defaultlib.TLMonitor_39
+Compiling module xil_defaultlib.AsyncResetSynchronizerShiftReg_w...
+Compiling module xil_defaultlib.AsyncResetSynchronizerShiftReg_w...
+Compiling module xil_defaultlib.AsyncValidSync
+Compiling module xil_defaultlib.AsyncResetSynchronizerShiftReg_w...
+Compiling module xil_defaultlib.AsyncValidSync_1
+Compiling module xil_defaultlib.AsyncValidSync_2
+Compiling module xil_defaultlib.AsyncQueueSource
+Compiling module xil_defaultlib.SynchronizerShiftReg_w43_d1
+Compiling module xil_defaultlib.AsyncQueueSink
+Compiling module xil_defaultlib.TLAsyncCrossingSource
+Compiling module xil_defaultlib.AsyncQueueSource_1
+Compiling module xil_defaultlib.TLDebugModuleOuterAsync
+Compiling module xil_defaultlib.TLMonitor_40
+Compiling module xil_defaultlib.TLMonitor_41
+Compiling module xil_defaultlib.TLDebugModuleInner
+Compiling module xil_defaultlib.SynchronizerShiftReg_w55_d1
+Compiling module xil_defaultlib.AsyncQueueSink_1
+Compiling module xil_defaultlib.AsyncQueueSource_2
+Compiling module xil_defaultlib.TLAsyncCrossingSink
+Compiling module xil_defaultlib.ResetCatchAndSync_d3
+Compiling module xil_defaultlib.EICG_wrapper
+Compiling module xil_defaultlib.SynchronizerShiftReg_w14_d1
+Compiling module xil_defaultlib.AsyncQueueSink_2
+Compiling module xil_defaultlib.TLDebugModuleInnerAsync
+Compiling module xil_defaultlib.TLDebugModule
+Compiling module xil_defaultlib.TLMonitor_42
+Compiling module xil_defaultlib.TLMonitor_43
+Compiling module xil_defaultlib.TLXbar_8
+Compiling module xil_defaultlib.IntXbar_4
+Compiling module xil_defaultlib.MaxPeriodFibonacciLFSR
+Compiling module xil_defaultlib.DCacheModuleanon2
+Compiling module xil_defaultlib.split_tag_array_ext
+Compiling module xil_defaultlib.tag_array_ext
+Compiling module xil_defaultlib.tag_array
+Compiling module xil_defaultlib.split_data_arrays_0_ext
+Compiling module xil_defaultlib.data_arrays_0_ext
+Compiling module xil_defaultlib.data_arrays_0
+Compiling module xil_defaultlib.DCacheDataArray
+Compiling module xil_defaultlib.DCacheModuleanon3
+Compiling module xil_defaultlib.packageanon2
+Compiling module xil_defaultlib.PMPChecker
+Compiling module xil_defaultlib.TLB
+Compiling module xil_defaultlib.AMOALU
+Compiling module xil_defaultlib.DCache
+Compiling module xil_defaultlib.split_tag_array_0_ext
+Compiling module xil_defaultlib.tag_array_0_ext
+Compiling module xil_defaultlib.tag_array_0
+Compiling module xil_defaultlib.split_data_arrays_0_0_ext
+Compiling module xil_defaultlib.data_arrays_0_0_ext
+Compiling module xil_defaultlib.data_arrays_0_0
+Compiling module xil_defaultlib.ICache
+Compiling module xil_defaultlib.ShiftQueue
+Compiling module xil_defaultlib.PMPChecker_1
+Compiling module xil_defaultlib.TLB_1
+Compiling module xil_defaultlib.BTB
+Compiling module xil_defaultlib.Frontend
+Compiling module xil_defaultlib.TLMonitor_44
+Compiling module xil_defaultlib.Queue_54
+Compiling module xil_defaultlib.Queue_55
+Compiling module xil_defaultlib.Queue_56
+Compiling module xil_defaultlib.Queue_57
+Compiling module xil_defaultlib.Queue_58
+Compiling module xil_defaultlib.TLBuffer_12
+Compiling module xil_defaultlib.SynchronizerShiftReg_w1_d3
+Compiling module xil_defaultlib.IntSyncCrossingSink
+Compiling module xil_defaultlib.IntSyncCrossingSink_1
+Compiling module xil_defaultlib.IntSyncCrossingSink_2
+Compiling module xil_defaultlib.FPUDecoder
+Compiling module xil_defaultlib.MulAddRecFNToRaw_preMul
+Compiling module xil_defaultlib.MulAddRecFNToRaw_postMul
+Compiling module xil_defaultlib.RoundAnyRawFNToRecFN
+Compiling module xil_defaultlib.RoundRawFNToRecFN
+Compiling module xil_defaultlib.MulAddRecFNPipe
+Compiling module xil_defaultlib.FPUFMAPipe
+Compiling module xil_defaultlib.CompareRecFN
+Compiling module xil_defaultlib.RecFNToIN
+Compiling module xil_defaultlib.RecFNToIN_1
+Compiling module xil_defaultlib.FPToInt
+Compiling module xil_defaultlib.RoundAnyRawFNToRecFN_1
+Compiling module xil_defaultlib.INToRecFN
+Compiling module xil_defaultlib.RoundAnyRawFNToRecFN_2
+Compiling module xil_defaultlib.INToRecFN_1
+Compiling module xil_defaultlib.IntToFP
+Compiling module xil_defaultlib.RoundAnyRawFNToRecFN_3
+Compiling module xil_defaultlib.RecFNToRecFN
+Compiling module xil_defaultlib.FPToFP
+Compiling module xil_defaultlib.MulAddRecFNToRaw_preMul_1
+Compiling module xil_defaultlib.MulAddRecFNToRaw_postMul_1
+Compiling module xil_defaultlib.RoundAnyRawFNToRecFN_4
+Compiling module xil_defaultlib.RoundRawFNToRecFN_1
+Compiling module xil_defaultlib.MulAddRecFNPipe_1
+Compiling module xil_defaultlib.FPUFMAPipe_1
+Compiling module xil_defaultlib.DivSqrtRecFNToRaw_small
+Compiling module xil_defaultlib.DivSqrtRecFN_small
+Compiling module xil_defaultlib.DivSqrtRecFNToRaw_small_1
+Compiling module xil_defaultlib.DivSqrtRecFN_small_1
+Compiling module xil_defaultlib.FPU
+Compiling module xil_defaultlib.HellaCacheArbiter
+Compiling module xil_defaultlib.RRArbiter
+Compiling module xil_defaultlib.packageanon2_78
+Compiling module xil_defaultlib.packageanon2_79
+Compiling module xil_defaultlib.PTW
+Compiling module xil_defaultlib.RVCExpander
+Compiling module xil_defaultlib.IBuf
+Compiling module xil_defaultlib.CSRFile
+Compiling module xil_defaultlib.BreakpointUnit
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.MulDiv
+Compiling module xil_defaultlib.plusarg_reader(FORMAT="max_core_...
+Compiling module xil_defaultlib.PlusArgTimeout
+Compiling module xil_defaultlib.Rocket
+Compiling module xil_defaultlib.RocketTile
+Compiling module xil_defaultlib.AsyncResetRegVec_w2_i0
+Compiling module xil_defaultlib.IntSyncCrossingSource_2
+Compiling module xil_defaultlib.IntSyncCrossingSource_3
+Compiling module xil_defaultlib.SynchronizerShiftReg_w2_d3
+Compiling module xil_defaultlib.IntXing
+Compiling module xil_defaultlib.TLMonitor_45
+Compiling module xil_defaultlib.TLROM
+Compiling module xil_defaultlib.TLMonitor_46
+Compiling module xil_defaultlib.Queue_59
+Compiling module xil_defaultlib.TLBroadcastTracker
+Compiling module xil_defaultlib.TLBroadcastTracker_1
+Compiling module xil_defaultlib.TLBroadcastTracker_2
+Compiling module xil_defaultlib.TLBroadcastTracker_3
+Compiling module xil_defaultlib.TLBroadcast
+Compiling module xil_defaultlib.TLMonitor_47
+Compiling module xil_defaultlib.TLWidthWidget_8
+Compiling module xil_defaultlib.TLMonitor_48
+Compiling module xil_defaultlib.TLSourceShrinker
+Compiling module xil_defaultlib.SerialAdapter
+Compiling module xil_defaultlib.Queue_63
+Compiling module xil_defaultlib.BoomRocketTop
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_carry_...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_compar...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_compar...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_compar...
+Compiling module axi_crossbar_v2_1_20.axi_crossbar_v2_1_20_addr_decode...
+Compiling module axi_crossbar_v2_1_20.axi_crossbar_v2_1_20_arbiter_res...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_mux_en...
+Compiling module axi_data_fifo_v2_1_18.axi_data_fifo_v2_1_18_ndeep_srl(...
+Compiling module axi_data_fifo_v2_1_18.axi_data_fifo_v2_1_18_axic_srl_f...
+Compiling module axi_crossbar_v2_1_20.axi_crossbar_v2_1_20_si_transact...
+Compiling module generic_baseblocks_v2_1_0.generic_baseblocks_v2_1_0_mux_en...
+Compiling module axi_crossbar_v2_1_20.axi_crossbar_v2_1_20_si_transact...
+Compiling module axi_crossbar_v2_1_20.axi_crossbar_v2_1_20_splitter
+Compiling module axi_data_fifo_v2_1_18.axi_data_fifo_v2_1_18_axic_reg_s...
+Compiling module axi_crossbar_v2_1_20.axi_crossbar_v2_1_20_wdata_route...
+Compiling module axi_crossbar_v2_1_20.axi_crossbar_v2_1_20_wdata_mux(C...
+Compiling module axi_infrastructure_v1_1_0.axi_infrastructure_v1_1_0_axi2ve...
+Compiling module axi_register_slice_v2_1_19.axi_register_slice_v2_1_19_axic_...
+Compiling module axi_register_slice_v2_1_19.axi_register_slice_v2_1_19_axic_...
+Compiling module axi_register_slice_v2_1_19.axi_register_slice_v2_1_19_axic_...
+Compiling module axi_register_slice_v2_1_19.axi_register_slice_v2_1_19_axic_...
+Compiling module axi_infrastructure_v1_1_0.axi_infrastructure_v1_1_0_vector...
+Compiling module axi_register_slice_v2_1_19.axi_register_slice_v2_1_19_axi_r...
+Compiling module axi_crossbar_v2_1_20.axi_crossbar_v2_1_20_wdata_mux(C...
+Compiling module axi_data_fifo_v2_1_18.axi_data_fifo_v2_1_18_axic_srl_f...
+Compiling module axi_crossbar_v2_1_20.axi_crossbar_v2_1_20_addr_arbite...
+Compiling module axi_crossbar_v2_1_20.axi_crossbar_v2_1_20_decerr_slav...
+Compiling module axi_crossbar_v2_1_20.axi_crossbar_v2_1_20_crossbar(C_...
+Compiling module axi_crossbar_v2_1_20.axi_crossbar_v2_1_20_axi_crossba...
+Compiling module xil_defaultlib.axi_crossbar_0
+Compiling module xil_defaultlib.narrower
+Compiling module xil_defaultlib.nasti_lite_writer_default
+Compiling module xil_defaultlib.nasti_lite_reader_default
+Compiling module xil_defaultlib.nasti_lite_bridge
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.address_decoder [\address_decoder(c_bus_awidth=5,...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.slave_attachment [\slave_attachment(c_ard_addr_ran...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.axi_lite_ipif [\axi_lite_ipif(c_s_axi_addr_widt...]
+Compiling architecture oddre1_v of entity unisim.ODDRE1 [\ODDRE1(1,10)\]
+Compiling architecture imp of entity lib_srl_fifo_v1_0_2.cntr_incr_decr_addn_f [\cntr_incr_decr_addn_f(c_size=5,...]
+Compiling architecture behavioral of entity lib_srl_fifo_v1_0_2.dynshreg_f [\dynshreg_f(c_depth=16,c_dwidth=...]
+Compiling architecture imp of entity lib_srl_fifo_v1_0_2.srl_fifo_rbu_f [\srl_fifo_rbu_f(c_dwidth=8,c_fam...]
+Compiling architecture implementation of entity axi_uart16550_v2_0_21.tx_fifo_block [\tx_fifo_block(c_family="virtexu...]
+Compiling architecture implementation of entity axi_uart16550_v2_0_21.rx_fifo_control [\rx_fifo_control(c_family="virte...]
+Compiling architecture behavioral of entity lib_srl_fifo_v1_0_2.dynshreg_f [\dynshreg_f(c_depth=16,c_dwidth=...]
+Compiling architecture imp of entity lib_srl_fifo_v1_0_2.srl_fifo_rbu_f [\srl_fifo_rbu_f(c_dwidth=11,c_fa...]
+Compiling architecture implementation of entity axi_uart16550_v2_0_21.rx_fifo_block [\rx_fifo_block(c_family="virtexu...]
+Compiling architecture implementation of entity axi_uart16550_v2_0_21.xuart_tx_load_sm [xuart_tx_load_sm_default]
+Compiling architecture implementation of entity axi_uart16550_v2_0_21.rx16550 [rx16550_default]
+Compiling architecture implementation of entity axi_uart16550_v2_0_21.tx16550 [tx16550_default]
+Compiling architecture implementation of entity axi_uart16550_v2_0_21.uart16550 [\uart16550(c_is_a_16550=true,c_e...]
+Compiling architecture imp of entity axi_uart16550_v2_0_21.ipic_if [ipic_if_default]
+Compiling architecture imp of entity axi_uart16550_v2_0_21.xuart [\xuart(c_family="virtexuplushbm"...]
+Compiling architecture rtl of entity axi_uart16550_v2_0_21.axi_uart16550 [\axi_uart16550(c_family="virtexu...]
+Compiling architecture axi_uart16550_0_arch of entity xil_defaultlib.axi_uart16550_0 [axi_uart16550_0_default]
+Compiling module xil_defaultlib.uart
+Compiling module xil_defaultlib.bram_storage
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_1.sng_port_arb [\sng_port_arb(c_s_axi_addr_width...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_1.ua_narrow [\ua_narrow(c_axi_data_width=64,c...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_1.wrap_brst [\wrap_brst(c_axi_addr_width=16,c...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture muxcy_l_v of entity unisim.MUXCY_L [muxcy_l_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(0,15)\]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture fdr_v of entity unisim.FDR [fdr_default]
+Compiling architecture imp of entity axi_bram_ctrl_v4_1_1.SRL_FIFO [\SRL_FIFO(c_data_bits=4,c_depth=...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_1.wr_chnl [\wr_chnl(c_axi_addr_width=16,c_b...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_1.rd_chnl [\rd_chnl(c_axi_addr_width=16,c_b...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_1.full_axi [\full_axi(c_s_axi_addr_width=16,...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_1.axi_bram_ctrl_top [\axi_bram_ctrl_top(c_bram_addr_w...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_1_1.axi_bram_ctrl [\axi_bram_ctrl(c_memory_depth=81...]
+Compiling architecture axi_bram_ctrl_0_arch of entity xil_defaultlib.axi_bram_ctrl_0 [axi_bram_ctrl_0_default]
+Compiling module xil_defaultlib.bram
+Compiling module xil_defaultlib.nasti_lite_writer(ADDR_WIDTH=7)
+Compiling module xil_defaultlib.nasti_lite_reader(ADDR_WIDTH=7)
+Compiling module xil_defaultlib.nasti_lite_bridge(ADDR_WIDTH=7)
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=1,c_aw=7,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=4,c_aw=4,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=7,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=3,c_aw=3,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=3,c_aw=3,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=3,c_aw=3,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=3,c_aw=3,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=3,c_aw=3,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=3,c_aw=3,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=3,c_aw=3,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=3,c_aw=3,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.pselect_f [\pselect_f(c_ab=2,c_aw=7,c_bar="...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.address_decoder [\address_decoder(c_bus_awidth=7,...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.slave_attachment [\slave_attachment(c_ard_addr_ran...]
+Compiling architecture imp of entity axi_lite_ipif_v3_0_4.axi_lite_ipif [\axi_lite_ipif(c_s_axi_addr_widt...]
+Compiling architecture fdre_v of entity unisim.FDRE [\FDRE(init='1')\]
+Compiling architecture fdr_v of entity unisim.FDR [\FDR(init='1')\]
+Compiling architecture imp of entity axi_quad_spi_v3_2_18.cross_clk_sync_fifo_1 [\cross_clk_sync_fifo_1(c_family=...]
+Compiling architecture implementation of entity lib_cdc_v1_0_2.cdc_sync [\cdc_sync(c_vector_width=1)\]
+Compiling architecture imp of entity axi_quad_spi_v3_2_18.counter_f [\counter_f(c_num_bits=4)(1,8)\]
+Compiling module xpm.xpm_fifo_base(COMMON_CLOCK=0,FIF...
+Compiling module xpm.xpm_fifo_async(FIFO_MEMORY_TYPE=...
+Compiling architecture implementation of entity lib_fifo_v1_0_13.async_fifo_fg [\async_fifo_fg(c_allow_2n_depth=...]
+Compiling architecture imp of entity axi_quad_spi_v3_2_18.qspi_fifo_ifmodule [\qspi_fifo_ifmodule(c_num_transf...]
+Compiling architecture imp of entity axi_quad_spi_v3_2_18.qspi_occupancy_reg [\qspi_occupancy_reg(c_occupancy_...]
+Compiling architecture fd_v of entity unisim.FD [\FD(init='1')\]
+Compiling architecture imp of entity axi_quad_spi_v3_2_18.qspi_mode_0_module [\qspi_mode_0_module(c_sck_ratio=...]
+Compiling architecture imp of entity axi_quad_spi_v3_2_18.qspi_status_slave_sel_reg [\qspi_status_slave_sel_reg(c_spi...]
+Compiling architecture imp of entity axi_quad_spi_v3_2_18.reset_sync_module [reset_sync_module_default]
+Compiling module xpm.xpm_cdc_sync_rst(DEST_SYNC_FF=2,...
+Compiling module xpm.xpm_fifo_rst(COMMON_CLOCK=0)
+Compiling module xpm.xpm_fifo_reg_bit
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=5...
+Compiling module xpm.xpm_counter_updn(RESET_VALUE=1)
+Compiling module xpm.xpm_counter_updn(RESET_VALUE=2)
+Compiling module xpm.xpm_counter_updn(RESET_VALUE=3)
+Compiling module xpm.xpm_memory_base(MEMORY_TYPE=1,ME...
+Compiling module xpm.xpm_cdc_gray(DEST_SYNC_FF=2,INIT...
+Compiling module xpm.xpm_fifo_reg_vec
+Compiling module xpm.xpm_cdc_gray(INIT_SYNC_FF=1,WIDT...
+Compiling module xpm.xpm_fifo_reg_vec(REG_WIDTH=5)
+Compiling module xpm.xpm_cdc_gray(DEST_SYNC_FF=2,INIT...
+Compiling module xpm.xpm_counter_updn(COUNTER_WIDTH=2...
+Compiling module xpm.xpm_fifo_base(COMMON_CLOCK=0,FIF...
+Compiling module xpm.xpm_fifo_async(FIFO_MEMORY_TYPE=...
+Compiling architecture imp of entity axi_quad_spi_v3_2_18.qspi_cntrl_reg [\qspi_cntrl_reg(c_s_axi_data_wid...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111111001010")(0...]
+Compiling architecture fdrse_v of entity unisim.FDRSE [fdrse_default]
+Compiling architecture implementation of entity axi_quad_spi_v3_2_18.soft_reset [\soft_reset(c_reset_width=16)\]
+Compiling architecture implementation of entity interrupt_control_v3_1_4.interrupt_control [\interrupt_control(c_num_ce=16,c...]
+Compiling architecture imp of entity axi_quad_spi_v3_2_18.qspi_core_interface [\qspi_core_interface(c_family="v...]
+Compiling architecture fd_v of entity unisim.FD [fd_default]
+Compiling architecture imp of entity axi_quad_spi_v3_2_18.axi_quad_spi_top [\axi_quad_spi_top(c_family="virt...]
+Compiling architecture imp of entity axi_quad_spi_v3_2_18.axi_quad_spi [\axi_quad_spi(c_family="virtexup...]
+Compiling architecture axi_quad_spi_0_arch of entity xil_defaultlib.axi_quad_spi_0 [axi_quad_spi_0_default]
+Compiling module xil_defaultlib.spi
+Compiling module xil_defaultlib.AXIMmio
+Compiling module xil_defaultlib.DTModule
+Compiling module xil_defaultlib.chip_top
+Compiling module xil_defaultlib.dut_top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot dut_top_tb_behav
